@@ -1,0 +1,114 @@
+
+
+html , header{
+    color-scheme: dark !important;
+}
+html , header{
+    background-color: #191b1c !important;
+}
+
+
+.prod-container .prodcard  {
+  background-color: #292b2c !important;
+  color-scheme: dark !important;
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+/*************************nav bar style **********************/
+
+
+header{
+  display: flex;
+  padding: 0 1%;
+  justify-content: space-around;
+  background-color: #f7f7f8;
+  
+}
+
+.main-nav{
+    display: flex;
+    padding: 10px;
+    column-gap: 40px;
+
+}
+
+.main-nav a{
+  font-size: 20px;
+  color: white;
+  text-decoration:none;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: opacity 0.15s;
+}
+.main-nav a:hover{
+color: blueviolet;
+}
+.main-nav a:active{
+  opacity: 0.5;
+}
+
+video{
+  width: 40%;
+  border-radius: 20px;
+}
+/*************************intro  style**********************/
+
+#intro{
+  display: flex;
+  width: 1100px;
+  margin: 50px auto;
+  justify-content: space-between; 
+
+}
+#intro a{
+  background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition:  opacity 0.15s;
+}
+#intro a:hover{
+  opacity: 0.57;
+  color: white;
+}
+#intro a:active{
+  opacity: 0.5;
+}
+/*************************nav catagory**********************/
+.nav-cat{
+  background-color: #292b2c ;
+  width: 50%;
+}
+.prod-container{
+  display: flex;
+  justify-content: space-between; 
+  margin: 10px;
+}
+
+.prodcard{
+  background-color: #e9e6f0;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px 20px;
+}
+
+.product-img{
+ 
+
+  border-radius: 10px 10px 0 0;
+ 
+}
+footer{
+  background-color: #2b2343;
+  height: 50px;
+  color: white;
+  width: 100%;
+  text-align: center;
+
+}
