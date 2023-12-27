@@ -1,0 +1,64 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  /*************************nav bar style **********************/
+  .main-nav{
+      background-color: #f7f7f8;
+      padding: 10px;
+  
+  }
+  .main-nav a{
+      font-size: 20px;
+      color: #3d414a ;
+      text-decoration:none;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: opacity 0.15s;
+  }
+  .main-nav a:hover{
+    color: blueviolet;
+    opacity: 0.8;
+  }
+  h1{
+    color:blueviolet
+    
+  }
+  form{
+    width: 400px;
+    background-color: #EEEFF1;
+    border: solid 1px #3c404a38;
+    border-radius: 15px;
+    color: #3d414a;
+    padding: 20px;
+   
+    margin: 50px auto;
+  }
+  .field{
+    width: 95%;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+
+  }
+  .signupbutton{
+    background-color: rgba(26, 35, 211, 0.74);
+    color: white;
+    border: none;
+    width: 270px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    transition: opacity 0.15s;
+    border-style: solid;
+    }
+    .signupbutton:hover{
+      opacity: 0.8;
+    }
+    .signupbutton:active{
+      opacity: 0.5;
+    }
