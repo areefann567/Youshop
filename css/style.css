@@ -1,9 +1,8 @@
 
 
+
 html , header{
-    color-scheme: dark !important;
-}
-html , header{
+  color-scheme: dark !important;
     background-color: #191b1c !important;
 }
 
@@ -72,6 +71,19 @@ video{
     font-size: 18px;
     text-decoration: none;
     transition:  opacity 0.15s;
+    display: block;
+    width:fit-content;
+    animation: slide-up 0.5s ease-in-out;
+}
+@keyframes slide-up {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1; /* Changed opacity to a value between 0 and 1 */
+  }
 }
 #intro a:hover{
   opacity: 0.57;
@@ -81,9 +93,21 @@ video{
   opacity: 0.5;
 }
 /*************************nav catagory**********************/
-.nav-cat{
-  background-color: #292b2c ;
-  width: 50%;
+.nav-cat  {
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+.nav-cat a{
+  text-decoration: none;
+}
+.nav-cat a:hover{
+  opacity: 0.39;
+  
 }
 .prod-container{
   display: flex;
@@ -97,12 +121,26 @@ video{
   width: 200px;
   margin: 10px 20px;
 }
+.prodcard a:hover{
+  opacity: 0.70;
+}
+.prodcard a:active{
+  opacity: 0.5;
+}
+
+
 
 .product-img{
  
 
   border-radius: 10px 10px 0 0;
  
+}
+.product-img:hover{
+  opacity: 0.70;
+}
+.product-img:active{
+  opacity: 0.5;
 }
 footer{
   background-color: #2b2343;
